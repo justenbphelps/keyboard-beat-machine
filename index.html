@@ -187,13 +187,19 @@ color: '#2c3e50'
                 circles[i].scale(0.9)
              }
          }
+      // Create a point-text item at {x: 30, y: 30}:
+      var text = new PointText(new Point(30, 30));
+      text.fillColor = 'black';
 
+      // Set the content of the text item:
+      text.content = 'Press Any Key To Begin';
     </script>
 </head>
 <body>
 
-<canvas id="myCanvas" resize></canvas>
 
+
+<canvas id="myCanvas" resize></canvas>
 
 
 
